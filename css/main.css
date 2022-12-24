@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: rgb(245, 245, 245);
+  top: 0;
+}
+header div.logo {
+  font-weight: bolder;
+}
+header nav a.active {
+  font-weight: bold;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li {
+  padding-left: 3rem;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+div.container {
+  padding: 3rem 10rem;
+}
+
+div.main {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.main div.intro {
+  line-height: 1.5rem;
+  padding-right: 5rem;
+  text-align: justify;
+}
+div.main div.intro .section {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+div.main div.intro .branch {
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+div.main div.introImg {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-size: 0.6rem;
+  color: rgb(128, 128, 128);
+}
+div.main div.introImg img {
+  height: 65vh;
+}
+
+div.members table, div.members th, div.members td {
+  text-align: center;
+  border: solid 1px black;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+div.members table img, div.members th img, div.members td img {
+  height: 4rem;
+  border-radius: 50%;
+}
+
+div.faculties table, div.faculties th, div.faculties td {
+  text-align: center;
+  border: solid 1px black;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+div.faculties table img, div.faculties th img, div.faculties td img {
+  height: 4rem;
+  border-radius: 50%;
+}
+
+div.timetable {
+  height: 100vh;
+  text-align: center;
+}
+div.timetable img {
+  height: 100vh;
+}
+div.timetable button {
+  background-color: rgb(224, 19, 19);
+  padding: 1rem;
+  color: white;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(194, 194, 194);
+  font-size: 0.8rem;
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+span.heading {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}/*# sourceMappingURL=main.css.map */

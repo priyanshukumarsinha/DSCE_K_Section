@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+$div-padding-l-r : 3rem;
+$div-padding-t-b : 10rem;
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    // border: solid 1px black;
+    padding: $div-padding-l-r $div-padding-t-b;
+    position: sticky;
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    div.logo{
+        font-weight: bolder;
+    }
+    nav{
+        a.active{
+            font-weight: bold;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            li{
+                padding-left: $div-padding-l-r;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+div.container{
+    padding: $div-padding-l-r $div-padding-t-b;
+}
+
+div.main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div.intro{
+        line-height: 1.5rem;
+        padding-right: 5rem;
+        text-align: justify;
+        .section{
+            font-weight: bolder;
+            font-size: 3rem;
+        }
+        .branch{
+            font-weight: 100;
+            font-size: 0.9rem;
+        }
+    }
+    div.introImg{
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        font-size: 0.6rem;
+        color: rgb(128, 128, 128);
+        img{
+            height: 65vh;
+        }
+    }
+}
+
+div.members{
+    // border: solid 1px black;
+
+    table,th,td{
+        text-align: center;
+        border: solid 1px black;
+        border-collapse: collapse;
+        padding: 1rem;
+        img{
+            height: 4rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+div.faculties{
+    // border: solid 1px black;
+
+    table,th,td{
+        text-align: center;
+        border: solid 1px black;
+        border-collapse: collapse;
+        padding: 1rem;
+        img{
+            height: 4rem;
+            border-radius: 50%;
+        }
+    }
+}
+
+
+div.timetable{
+
+    height: 100vh;
+    text-align: center;
+    img{
+        height: 100vh;
+    }
+    button{
+        background-color: rgb(224, 19, 19);
+        padding: 1rem;
+        color: white;
+        border: 0;
+        border-radius: 0.5rem;
+        font-weight: bold;
+    }
+}
+
+footer{
+    background-color: rgb(194, 194, 194);
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+span.heading{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+
+
+// .emoji
+// {
+//     display: none;
+// }
